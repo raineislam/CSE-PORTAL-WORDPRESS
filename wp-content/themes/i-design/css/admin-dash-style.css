@@ -1,0 +1,113 @@
+.dismiss-cross {
+	margin-right: 0px;
+	font-weight: normal;
+}
+
+.dismiss-cross:hover,
+.rn-dismiss-btn:hover {
+	color: #FFF;
+	background-color: #000;
+}
+
+
+.dismiss-text {
+	display: block;
+	float: left;
+	margin-top: 8px;
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: #fff;
+	background-color: #999;
+	padding: 0px 6px;
+}
+
+.dismiss-text:hover {
+	color: #FFF;
+	background-color: #000;
+}
+
+
+.ad-review:before {
+	display: block;
+	clear: both;
+	content: " ";
+	height: 1px;
+}
+
+.ad-review {
+	display: block;
+	float: left;
+	padding-right: 16px;
+}
+
+.review-text {
+	display: block;
+	float: left;
+	margin-top: 8px;
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: #fff;
+	background-color: #a30004;
+	padding: 0px 12px;
+}
+
+.review-text:hover {
+	color: #FFF;
+	background-color: #0095d1;
+}
+
+
+.wp-admin .wrap .idesign-notice {
+	display: none;
+}
+.wp-admin.index-php .wrap .idesign-notice {
+	display: block!important;
+	background-image: url(../images/notice-bg.png);
+	background-repeat: repeat;
+	background-position: left center;
+}
+
+.wrap .idesign-notice {
+	background-color: #e57e26;
+	color: #FFF;
+	font-size: 14px;
+	font-weight: 400;
+	border-left: 4px solid #783700;
+	border-left: 4px solid #e57e26;	
+}
+
+.wrap .idesign-notice a,
+.wrap .idesign-notice a:visited {
+	color: #FFF;
+	text-decoration: underline;
+}
+
+.wrap .idesign-notice a:hover {
+	text-decoration: none;
+}
+
+.wrap .idesign-notice .ad-review,
+.wrap .idesign-notice .ad-review:visited,
+.wrap .idesign-notice .tx-dismiss,
+.wrap .idesign-notice .tx-dismiss:visited {
+	display: inline-block;
+	padding: 4px 12px;
+	background-color: #f4e2d3;
+	color: #9a4700;
+	border: 2px solid #d86400;
+	border-radius: 3px;
+	text-decoration: none;
+	margin-top: 16px;
+	margin-right: 12px;
+	font-weight: 500;
+	font-weight: 600;
+}
+
+.wrap .idesign-notice .ad-review:hover,
+.wrap .idesign-notice .tx-dismiss:hover {
+	background-color: #FFF;
+	text-decoration: none;
+	color: #9d0000;	
+}

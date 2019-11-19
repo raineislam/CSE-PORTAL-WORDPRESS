@@ -1,0 +1,156 @@
+.col {
+  float: left;
+  width: 369px; }
+  .col.left-col {
+    margin-right: 20px; }
+
+.full-width {
+  width: 760px; }
+
+.cp_content_box {
+  background-color: white;
+  margin-top: 10px;
+  padding: 20px 30px; }
+  .cp_content_box h3 {
+    margin-top: 0px; }
+  .cp_content_box.support img {
+    float: right;
+    padding: 21px 0; }
+  .cp_content_box.blue {
+    background-color: #419fd4;
+    border-radius: 5px;
+    color: white; }
+    .cp_content_box.blue a {
+      color: white;
+      text-decoration: none; }
+  .cp_content_box.faq {
+    font-size: 30px;
+    text-align: center; }
+    .cp_content_box.faq a {
+      display: block;
+      line-height: 145px; }
+
+.cp-button {
+  border-radius: 5px;
+  background-color: #419fd4;
+  border: 0;
+  color: white;
+  padding: 21px;
+  font-size: 23px; }
+
+.cp-packages {
+  margin-top: 10px; }
+
+.cta {
+  margin: 10px 0;
+  background: url("../images/button-bg.jpg") repeat-x;
+  height: 73px; }
+  .cta a {
+    text-decoration: none;
+    text-align: center;
+    display: block; }
+  .cta h2 {
+    line-height: 73px;
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-size: 28px; }
+
+.banner {
+  width: 758px;
+  height: 376px;
+  position: relative; }
+  .banner .mda {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    color: white; }
+    .banner .mda h2 {
+      color: white;
+      font-size: 45px;
+      margin-bottom: 20px; }
+    .banner .mda p {
+      width: 435px; }
+
+.backgroundForTrans {
+  width: 677px;
+  background: #f1f1f1;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px; }
+  .backgroundForTrans .darken {
+    z-index: 20;
+    filter: alpha(opacity=50);
+    -moz-opacity: .5;
+    opacity: .5;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px; }
+
+.call_to_action h1 {
+  line-height: 1.2em;
+  margin: 0 0 .4em 0; }
+
+.select_disabled {
+  width: 200px; }
+
+#outer_relative {
+  position: relative; }
+
+#outer_relative #inner_right {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  right: 160px;
+  top: 10px;
+  font-size: 24px;
+  font-family: Verdana, Geneva, sans-serif;
+  line-height: 1.2em;
+  -moz-box-shadow: 0px 0px 18px -7px #444;
+  -webkit-box-shadow: 0px 0px 18px -7px #444;
+  box-shadow: 0px 0px 18px -7px #444;
+  background-color: #e2e2e2;
+  padding: 20px;
+  border-radius: 5px; }
+
+#outer_relative #inner_right a #outer_relative #inner_right a:visited, #outer_relative #inner_right a:hover, #outer_relative #inner_right a:active, #outer_relative #inner_right a:link {
+  text-decoration: none; }
+
+#faq_link {
+  font-size: 16px;
+  line-height: 1em; }
+
+#widgetBackground {
+  background-color: #378CAF; }
+
+#widgetEndBackground {
+  background-color: #006395; }
+
+#widgetText {
+  background-color: #ffffff; }
+
+#cp_shortcode, #widget_preview {
+  margin-left: 10px;
+  margin-top: 5px; }
+
+#cp_shortcode {
+  font-size: 20px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  min-height: 18px; }
+
+#widget_preview {
+  margin-top: 20px; }
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+
+.clearfix:after {
+  clear: both; }
+
+.clearfix {
+  *zoom: 1; }
